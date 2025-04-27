@@ -1,0 +1,186 @@
+/* Layout */
+.manage-books-layout {
+    margin-left: 260px;
+    display: flex;
+    background-color: #f5f7fa;
+    min-height: 100vh;
+}
+
+/* Main Panel */
+.manage-books-main {
+    flex: 1;
+    padding: 2rem;
+}
+
+/* Header */
+.manage-books-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.admin-greeting {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #2c3e50;
+}
+
+.admin-icons {
+    display: flex;
+    gap: 1rem;
+}
+
+.header-icon {
+    font-size: 1.8rem;
+    color: #444;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+.header-icon:hover {
+    color: #007bff95;
+    transform: scale(1.1);
+}
+
+/* Topbar */
+.manage-books-topbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.manage-books-title {
+    font-size: 1.7rem;
+    font-weight: bold;
+    color: #007bff;
+}
+
+.add-book-btn,
+.search-book-btn,
+.clear-search-btn {
+    background: #1e293b;
+    color: #fff;
+    padding: 0.5rem 1.2rem;
+    border: none;
+    border-radius: 6px;
+    font-size: 0.95rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background 0.2s ease-in-out;
+}
+
+.search-book-btn,
+.clear-search-btn {
+    margin-right: 10px;
+}
+
+.add-book-btn:hover,
+.modal-submit-btn:hover,
+.search-book-btn:hover {
+    background-color: #0056b3;
+}
+
+/* Table Styles */
+.books-table-container {
+    background-color: #fff;
+    border-radius: 10px;
+    overflow-x: auto;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.books-table {
+    width: 100%;
+    border-collapse: collapse;
+    min-width: 900px;
+}
+
+.books-table thead {
+    background: #1e293b;
+    color: #fff;
+}
+
+.books-table thead th {
+    padding: 0.75rem;
+    text-align: center;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+.books-table tbody td {
+    padding: 0.75rem;
+    text-align: center;
+    font-size: 0.9rem;
+    color: #333;
+    border-top: 1px solid #eee;
+}
+
+.books-table tbody tr:hover {
+    background-color: #f0f8ff;
+}
+
+.book-title {
+    font-weight: 600;
+    color: #2c3e50;
+}
+
+/* Buttons */
+.edit-btn,
+.delete-btn {
+    border: none;
+    padding: 0.4rem 0.6rem;
+    margin: 0 0.25rem;
+    border-radius: 5px;
+    font-size: 0.85rem;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.edit-btn {
+    background-color: #fff3cd;
+    color: #856404;
+}
+
+.edit-btn:hover {
+    background-color: #ffe8a1;
+}
+
+.delete-btn {
+    background-color: #f8d7da;
+    color: #721c24;
+}
+
+.delete-btn:hover {
+    background-color: #f5bfc2;
+}
+
+.modal-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.modal-form input {
+    margin-left: 20px;
+    margin-bottom: 10px;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.modal-submit-btn {
+    background: #1e293b;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.modal-search-input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #bbb;
+}

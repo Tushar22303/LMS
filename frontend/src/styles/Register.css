@@ -1,0 +1,58 @@
+.register-container {
+    background-image: url("../assets/Images/register_bg.jpg");
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    position: relative;
+}
+
+.register-box {
+    width: 500px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.864);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.719);
+    border-radius: 8px;
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 15px;
+}
+
+.error-message {
+    color: red;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.login-text {
+    margin-top: 10px;
+}
+
+.login-text a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.login-text a:hover {
+    text-decoration: underline;
+}
+
+/* Gender Dropdown Styling */
+.input-field {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccccccd4;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.back-home {
+    margin-top: 20px;
+    margin-left: 30px;
+}

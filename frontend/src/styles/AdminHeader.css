@@ -1,0 +1,36 @@
+/* Admin Header */
+.admin-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #1e293b;
+    padding: 15px 20px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.admin-header .admin-title {
+    margin-bottom: 0;
+    font-size: 25px;
+}
+
+/* Admin Profile Section */
+
+.admin-profile {
+    display: flex;
+    gap: 1rem;
+}
+
+.profile-icon {
+    font-size: 1.8rem;
+    color: #444;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+.profile-icon:hover {
+    color: #007bff95;
+    transform: scale(1.1);
+}

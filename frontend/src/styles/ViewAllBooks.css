@@ -1,0 +1,100 @@
+.viewall-layout {
+    display: flex;
+    margin-left: 260px;
+    height: 100vh;
+    background-color: #f9f9f9;
+}
+
+.viewall-main {
+    flex: 1;
+    padding: 40px;
+    overflow-y: auto;
+}
+
+.viewall-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+
+.viewall-header h2 {
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #333;
+}
+
+.search-input {
+    padding: 0.6rem 1rem;
+    width: 250px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+    outline: none;
+    transition: 0.3s;
+}
+
+.search-input:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.2);
+}
+
+.books-table-wrapper {
+    overflow-x: auto;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+}
+
+.books-table {
+    width: 100%;
+    border-collapse: collapse;
+    min-width: 900px;
+}
+
+.books-table th,
+.books-table td {
+    padding: 1rem;
+    text-align: left;
+    border-bottom: 1px solid #eee;
+    font-size: 0.95rem;
+}
+
+.books-table th {
+    background-color: #1e293b;
+    color: #fff;
+    font-weight: 600;
+    white-space: nowrap;
+}
+
+.books-table tr:hover {
+    background-color: #f9f9f9;
+}
+
+.books-table td {
+    color: #333;
+    vertical-align: top;
+}
+
+.books-table .request-btn {
+    background-color: #00ff66;
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 0.5rem 0.9rem;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    transition: 0.3s ease;
+}
+
+.books-table .request-btn:hover {
+    background-color: #0056b3;
+}
+
+.no-books {
+    text-align: center;
+    padding: 1rem;
+    color: #777;
+    font-style: italic;
+    font-size: 1rem;
+}

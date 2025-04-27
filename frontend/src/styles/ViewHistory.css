@@ -1,0 +1,76 @@
+.view-history-layout {
+    margin-left: 260px;
+    display: flex;
+    background-color: #f8f9fc;
+    min-height: 100vh;
+}
+
+.view-history-main {
+    flex: 1;
+    padding: 2rem;
+}
+
+.history-title {
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #1e293b;
+    margin-bottom: 1.5rem;
+}
+
+.download-btn {
+    height: 40px;
+    width: 40px;
+    border-radius: 5px;
+    border: none;
+    background: #1e293b;
+    color: #fff;
+    margin-right: 10px;
+}
+
+.history-table-container {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.06);
+    overflow-x: auto;
+}
+
+.history-table {
+    width: 100%;
+    border-collapse: collapse;
+    min-width: 900px;
+}
+
+.history-table thead {
+    background-color: #1e293b;
+    color: white;
+}
+
+.history-table th,
+.history-table td {
+    padding: 1rem;
+    text-align: center;
+    font-size: 0.95rem;
+    border-top: 1px solid #eee;
+}
+
+.history-table tbody tr:hover {
+    background-color: #f4f8ff;
+}
+
+.status-badge {
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    font-weight: 500;
+    display: inline-block;
+}
+
+.status-issued {
+    background-color: #fde68a;
+    color: #b45309;
+}
+
+.status-returned {
+    background-color: #d1fae5;
+    color: #065f46;
+}

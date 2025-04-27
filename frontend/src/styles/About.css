@@ -1,0 +1,66 @@
+/* Modern About Section */
+.about-section {
+    background: linear-gradient(135deg, #f7f7f8, #ecf3f7be);
+    color: black;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.about-section .container {
+    max-width: 900px;
+    margin: auto;
+}
+
+.about-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+
+.about-section p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+
+.about-section a {
+    display: inline-block;
+    background: rgba(17, 105, 182, 0.67);
+    color: #040c11;
+    padding: 12px 25px;
+    margin-top: 15px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 25px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+
+.about-section a:hover {
+    background: #040c11;
+    color: rgba(17, 105, 182, 0.67);
+    transform: translateY(-3px);
+}
+
+.about-section h3 {
+    margin-top: 40px;
+}
+
+.about-section ul {
+    list-style: none;
+    line-height: 30px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .about-section h2 {
+        font-size: 2rem;
+    }
+
+    .about-section p {
+        font-size: 1rem;
+    }
+}
